@@ -1,0 +1,79 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    background: linear-gradient(60deg, rgba($blue, 1), rgba($blue, 1), rgba($purple, 1), rgba($purple, 1));
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.inputBox{
+	width: 330px;
+	padding: 25px;
+	background: linear-gradient(60deg, rgba($purple, .8), rgba($purple, .8), rgba($blue, .8), rgba($blue, .8));
+	box-shadow: 4px 3px 10px rgba($black, .7);
+
+	h1{
+		text-align: center;
+		color: $white;
+		text-shadow: -1px -1px 2px $black;
+		letter-spacing: 3px;
+	}
+	
+
+	input[type=password]{
+		width: 100%;
+		border: 1px solid $grey;
+		line-height: 1.6;
+		padding: .375rem .75rem;
+		font-size: .9rem;
+		border-radius: .25rem;
+		margin-bottom: 1rem;
+		box-shadow: 0px 0px 10px $white;
+
+		&:focus{
+			outline: none;
+		}
+	}
+
+	.btn{
+		display: inline-flex;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: 400;
+		border-radius: .25rem;
+		transition-duration: .3s;
+		background: rgba($blue, .8);
+		border: none;
+		color: #fff;
+		box-shadow: 0px 0px 3px rgba($black, .7);
+		line-height: 1.5;
+		font-size: .9rem;
+		cursor: pointer;
+
+		&:focus{
+			outline: none;
+		}
+	}
+}
