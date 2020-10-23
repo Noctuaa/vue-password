@@ -49,24 +49,3 @@
         }
     }
 </script>
-
-<style lang="scss">
-    .input-group {
-        position: relative;
-
-        .btn-fa {
-            position: absolute;
-            right: 2px;
-            top: 0px;
-            cursor: pointer;
-            height: 100%;
-            font-size: 1rem;
-            border: none;
-            background-color: transparent;
-
-            &:focus{
-                outline: none;
-            }
-        }
-    }
-</style>>
